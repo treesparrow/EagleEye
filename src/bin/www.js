@@ -68,7 +68,7 @@ app.post('/message', function(req, res) {
 
 var server = http.createServer();
 
-var port = 8000
+var port = 80
 
 server.listen(port, function() {
     console.log('start web server %d', port);
